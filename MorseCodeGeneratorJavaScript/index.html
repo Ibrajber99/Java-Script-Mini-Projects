@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse COdse Generator</title>
+</head>
+<body id="body">
+    <div id="Container">
+    <h1> Morse Code Generator</h1>
+
+    <p>Enter a Word or a Sentence</p>
+    <textarea  id="morseCodeValue"></textarea>
+    <button type="submit" id="generateCodeBtn">Generate Code</button>
+    <h2 id="resultSet"></h2>
+    <footer>
+       <h1> All rights Reserved Ibra Jaber Solutions &COPY;</h1>
+    </footer>
+</div>
+</body>
+<script src="app.js" defer></script>
+</html>
+
+<style>
+#Container{
+    margin: 0 auto;   
+    width: 50%;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#morseCodeValue{
+    width: 90px;
+    height: 40px;
+}
+#generateCodeBtn{
+    border-radius: 1em;
+}
+</style>
